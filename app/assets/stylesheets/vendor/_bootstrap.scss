@@ -1,0 +1,42 @@
+@import 'bootstrap/functions';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+@import 'bootstrap/reboot';
+@import 'bootstrap/type';
+@import 'bootstrap/grid';
+@import 'bootstrap/buttons';
+@import 'bootstrap/forms';
+
+// Re-enable these if needed.
+// Do not forget to check the order of import components before re-enable.
+// You can check it on _bootstrap.scss file in Bootstrap gem.
+
+// @import 'bootstrap/root';
+// @import 'bootstrap/images';
+// @import 'bootstrap/code';
+// @import 'bootstrap/input-group';
+// @import 'bootstrap/nav';
+// @import 'bootstrap/navbar';
+// @import 'bootstrap/card';
+// @import 'bootstrap/breadcrumb';
+// @import 'bootstrap/pagination';
+// @import 'bootstrap/jumbotron';
+// @import 'bootstrap/alert';
+// @import 'bootstrap/progress';
+// @import 'bootstrap/media';
+// @import 'bootstrap/list-group';
+// @import 'bootstrap/close';
+// @import 'bootstrap/toasts';
+// @import 'bootstrap/popover';
+// @import 'bootstrap/carousel';
+// @import 'bootstrap/print';
+// @import 'bootstrap/tables';
+// @import 'bootstrap/transitions';
+// @import 'bootstrap/dropdown';
+// @import 'bootstrap/button-group';
+// @import 'bootstrap/custom-forms';
+// @import 'bootstrap/tooltip';
+// @import 'bootstrap/spinners';
+// @import 'bootstrap/utilities';
+// @import 'bootstrap/badge';
+// @import 'bootstrap/modal';
