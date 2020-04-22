@@ -20,7 +20,7 @@ gem 'pundit' # Minimal authorization through OO design and pure Ruby classes
 
 # Assets
 gem 'webpacker', '4.0' # Transpile app-like JavaScript
-gem 'bootstrap', '~> 4.3.1' # Use Bootstrap for CSS front-end framework.
+gem 'bootstrap', '4.3.1' # Use Bootstrap for CSS front-end framework.
 gem 'sass-rails' # SASS
 gem 'i18n-js', '3.5.1' # A library to provide the I18n translations on the Javascript
 
