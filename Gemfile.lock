@@ -59,6 +59,8 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.0)
+    autoprefixer-rails (9.7.6)
+      execjs
     awesome_print (1.8.0)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
@@ -73,6 +75,10 @@ GEM
       debug_inspector (>= 0.0.1)
     bootsnap (1.4.6)
       msgpack (~> 1.0)
+    bootstrap (4.2.1)
+      autoprefixer-rails (>= 9.1.0)
+      popper_js (>= 1.14.3, < 2)
+      sassc-rails (>= 2.0.0)
     brakeman (4.8.1)
     builder (3.2.4)
     bullet (6.1.0)
@@ -117,6 +123,7 @@ GEM
     equalizer (0.0.11)
     erubi (1.9.0)
     erubis (2.7.0)
+    execjs (2.7.0)
     fabrication (2.21.1)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
@@ -192,6 +199,7 @@ GEM
       ast (~> 2.4.0)
     path_expander (1.1.0)
     pg (1.2.3)
+    popper_js (1.16.0)
     pronto (0.10.0)
       gitlab (~> 4.0, >= 4.0.0)
       httparty (>= 0.13.7)
@@ -372,6 +380,13 @@ GEM
       docile (~> 1.1)
       simplecov-html (~> 0.11)
     simplecov-html (0.12.2)
+    slim (4.0.1)
+      temple (>= 0.7.6, < 0.9)
+      tilt (>= 2.0.6, < 2.1)
+    slim-rails (3.2.0)
+      actionpack (>= 3.1)
+      railties (>= 3.1)
+      slim (>= 3.0, < 5.0)
     spring (2.1.0)
     spring-commands-rspec (1.0.4)
       spring (>= 0.9.1)
@@ -385,6 +400,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    temple (0.8.2)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thor (0.20.3)
@@ -430,6 +446,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootsnap
+  bootstrap (~> 4.2.1)
   brakeman
   bullet
   capybara (>= 2.15)
@@ -471,6 +488,7 @@ DEPENDENCIES
   shoulda-matchers
   sidekiq
   simplecov
+  slim-rails
   spring
   spring-commands-rspec
   spring-watcher-listen (= 2.0.1)

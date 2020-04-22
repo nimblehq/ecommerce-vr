@@ -7,10 +7,13 @@ require("@rails/ujs").start()
 require("@rails/activestorage").start()
 require("channels")
 
+import '../vendor/bootstrap';
+import '../vendor/vectary-api';
 import '../translations/translations';
 
 import '../initializers/';
-import '../screens/';
+
+import '../screens/Home';
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
