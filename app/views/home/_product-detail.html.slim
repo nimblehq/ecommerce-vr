@@ -1,0 +1,16 @@
+.product-detail
+  h1.product-detail__name
+    | Nimble Mug
+  .product-detail__description
+    | Pre-order starting at 5:00 a.m. PDT  on 4.17.
+  .product-detail__customize
+    .form-group
+      = render partial:'option-picker'
+    .form-group
+      = render partial: 'option-dropdown'
+    .form-group
+      = render partial: 'option-dropdown'
+  .product-detail__actions
+    .actionable.is-left-align
+      .actionable-item
+        = link_to 'Continue', '#', class: 'btn btn-primary'

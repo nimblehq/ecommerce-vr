@@ -9,7 +9,6 @@ require("channels")
 
 import '../vendor/bootstrap';
 import '../vendor/vectary-api';
-import '../translations/translations';
 
 import '../initializers/';
 
