@@ -14,6 +14,9 @@
     color: map-get($brand-grey, 'primary');
     opacity: 0.5;
 
+    transition-property: opacity;
+    transition-duration: 0.3s;
+
     label {
       cursor: pointer;
       margin-bottom: 0;
@@ -29,5 +32,8 @@
   &__option:checked + .option-picker__item {
     opacity: 1;
     box-shadow: map-get($box-shadow, 'underline');
+
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
   }
 }

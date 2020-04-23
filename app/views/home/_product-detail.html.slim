@@ -1,15 +1,13 @@
 .product-detail
-  h1.product-detail__name
-    | Nimble Mug
-  .product-detail__description
-    | Pre-order starting at 5:00 a.m. PDT  on 4.17.
+  h1.product-detail__name = resource.name
+  .product-detail__description = resource.description
   .product-detail__customize
     .form-group
-      = render partial:'option-picker'
+      = render partial:'option-picker', locals: { resource: resource.sizes }
     .form-group
-      = render partial: 'option-dropdown'
+      = render partial: 'option-dropdown', locals: { resource: resource.colors }
     .form-group
-      = render partial: 'option-dropdown'
+      = render partial: 'option-dropdown', locals: { resource: resource.materials }
   .product-detail__actions
     .actionable.is-left-align
       .actionable-item

@@ -1,5 +1,5 @@
 .app-container
   .detail-container
-    = render partial:'product-detail'
+    = render partial:'product-detail', locals: { resource: product_detail_presenter }
   .preview-container
     = render partial:'product-preview'

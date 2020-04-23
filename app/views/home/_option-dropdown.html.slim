@@ -1,1 +1,5 @@
-| asd
+.option-dropdown
+  select id='#{resource[:slug]}' name='#{resource[:slug]}'
+    option value='' = resource[:placeholder]
+    - resource[:options].each_with_index do |option, index|
+      option value='#{option[:value]}'  = option[:title]
