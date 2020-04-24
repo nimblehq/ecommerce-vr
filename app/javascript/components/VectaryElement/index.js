@@ -4,7 +4,7 @@ import * as customEvent from './events';
 
 export const DEFAULT_SELECTOR = '.vectary-canvas';
 
-const MAIN_MESH_NAME = 'Can_Label_-_switchable_image';
+const MAIN_MESH_NAME = 'bollard_2';
 
 class VectaryElement {
   /**
@@ -29,7 +29,7 @@ class VectaryElement {
   // Private
 
   async _setup() {
-    this.vctrApi = new VctrApi("95234818-9caa-45b1-b742-5b1e01b5615c", this._errHandler);
+    this.vctrApi = new VctrApi('c9d4a16c-e9bb-4a07-b797-cd861d183019', this._errHandler);
 
     try {
       this.vctrApi.init();
@@ -39,7 +39,7 @@ class VectaryElement {
   }
 
   errHandler(err) {
-    console.log("API error", err);
+    console.log('API error', err);
   }
 
   /**
@@ -64,7 +64,7 @@ class VectaryElement {
       const updateMaterialSuccess = await this.vctrApi.updateMaterial(mainMesh.material, params);
       console.log(`Material update success: ${updateMaterialSuccess}`);
     } catch (e) {
-      console.log("API error", e);
+      console.log('API error', e);
       this._errHandler(e);
     }
   }
