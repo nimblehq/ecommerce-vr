@@ -29,7 +29,6 @@ class HomeScreen {
   }
 
   onMetalnessChange(event) {
-    console.log(event);
     dispatchEventFromElement(this.vectaryElement, vectaryElementEvent.VECTARY_METALNESS_CHANGE, { metalness: event.target.value });
   }
 
