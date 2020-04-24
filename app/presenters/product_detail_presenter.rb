@@ -27,9 +27,10 @@ class ProductDetailPresenter
       slug: "color_#{secure_number}",
       placeholder: 'Choose a color',
       options: [
-        { id: secure_number, value: '#ff0000', title: 'Red', bg: { color: '#ff0000' } },
-        { id: secure_number, value: '#00ff00', title: 'Green', bg: { color: '#00ff00' } },
-        { id: secure_number, value: '#0000ff', title: 'Blue', bg: { color: '#0000ff' } }
+        { id: secure_number, value: '#20639b', title: 'Blue', bg: { color: '#20639b' } },
+        { id: secure_number, value: '#3caea3', title: 'Green', bg: { color: '#3caea3' } },
+        { id: secure_number, value: '#f6d55c', title: 'Yellow', bg: { color: '#f6d55c' } },
+        { id: secure_number, value: '#ed553b', title: 'Orange', bg: { color: '#ed553b' } }
       ]
     }
   end
@@ -39,8 +40,8 @@ class ProductDetailPresenter
       slug: "material_#{secure_number}",
       placeholder: 'Choose a material',
       options: [
-        { id: secure_number, value: '0', title: 'Matt', bg: { image: '#' } },
-        { id: secure_number, value: '0.5', title: 'Half Matt', bg: { image: '#' } },
+        { id: secure_number, value: '0', title: 'Matte', bg: { image: '#' } },
+        { id: secure_number, value: '0.5', title: 'Half Matte', bg: { image: '#' } },
         { id: secure_number, value: '1', title: 'Metallic', bg: { image: '#' } }
       ]
     }
