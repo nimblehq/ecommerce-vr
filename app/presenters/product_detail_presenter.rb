@@ -40,7 +40,7 @@ class ProductDetailPresenter
       placeholder: 'Choose a material',
       options: [
         { id: secure_number, value: '0', title: 'Matt', bg: { image: '#' } },
-        { id: secure_number, value: '0.5', title: 'Half', bg: { image: '#' } },
+        { id: secure_number, value: '0.5', title: 'Half Matt', bg: { image: '#' } },
         { id: secure_number, value: '1', title: 'Metallic', bg: { image: '#' } }
       ]
     }

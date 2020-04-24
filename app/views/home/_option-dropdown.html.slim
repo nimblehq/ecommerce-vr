@@ -1,5 +1,5 @@
 .option-dropdown
-  select id='#{resource[:slug]}' name='#{resource[:slug]}'
+  select id='#{resource[:slug]}' name='#{resource[:slug]}' class='#{custom_class}'
     option value='' = resource[:placeholder]
     - resource[:options].each_with_index do |option, index|
       option value='#{option[:value]}'  = option[:title]
