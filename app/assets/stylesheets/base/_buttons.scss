@@ -1,0 +1,24 @@
+.btn {
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: none;
+  padding: rem(16px 56px);
+
+  @include border-radius(rem(100px));
+
+  &,
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.btn-primary {
+  color: map-get($brand-grey, 'primary');
+  background-color: #fff;
+
+  &:hover {
+    color: #fff;
+    background-color: map-get($brand-grey, 'primary');
+  }
+}

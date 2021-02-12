@@ -1,0 +1,39 @@
+.option-picker {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    border-bottom: 1px solid  map-get($brand-white, 'dark');
+  }
+
+  &__item {
+    color: map-get($brand-grey, 'primary');
+    opacity: 0.5;
+
+    transition-property: opacity;
+    transition-duration: 0.3s;
+
+    label {
+      cursor: pointer;
+      margin-bottom: 0;
+      padding-bottom: rem(16px);
+    }
+  }
+
+  &__option {
+    display: none;
+  }
+
+  &__item:hover,
+  &__option:checked + .option-picker__item {
+    opacity: 1;
+    box-shadow: map-get($box-shadow, 'underline');
+
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+  }
+}

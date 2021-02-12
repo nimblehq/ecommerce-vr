@@ -1,0 +1,7 @@
+.form-group {
+  margin-bottom: rem(48px);
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}

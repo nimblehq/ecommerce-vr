@@ -1,0 +1,6 @@
+.option-picker
+  ul.option-picker__wrapper
+    - resource[:options].each_with_index do |option, index|
+      input.option-picker__option type='radio' id='#{resource[:slug]}_#{option[:id]}' name='#{resource[:slug]}' value='#{option[:value]}' *{checked: index.zero?}
+      li.option-picker__item
+        label for='#{resource[:slug]}_#{option[:id]}' = option[:title]

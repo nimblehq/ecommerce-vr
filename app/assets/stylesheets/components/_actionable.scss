@@ -1,0 +1,26 @@
+.actionable {
+  text-align: center;
+
+  &.is-left-align {
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+
+  .actionable-item {
+    display: block;
+
+    &:not(:last-child) {
+      margin-bottom: 1.25rem;
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+        margin-right: 0.3rem;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      display: inline-block;
+    }
+  }
+}

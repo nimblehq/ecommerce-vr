@@ -1,3 +1,5 @@
 class HomeController < ApplicationController
-  def index; end
+  def index
+    render :index, locals: { product_detail_presenter: ProductDetailPresenter.new }
+  end
 end

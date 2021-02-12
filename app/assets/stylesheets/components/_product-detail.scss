@@ -1,0 +1,16 @@
+.product-detail {
+  width: rem(250px);
+
+  &__name {
+    font-size: rem(64px);
+    margin-bottom: rem(16px);
+  }
+
+  &__description {
+    margin-bottom: rem(48px);
+  }
+
+  &__customize {
+    margin-bottom: rem(32px);
+  }
+}
